@@ -7,7 +7,7 @@
 
 
 Api key ->
-726f92e1f400054de4c2b4b7a406470a
+SomethingSomething@12324544532
 
 Request endpoint
-https://api.themoviedb.org/3/movie/550?api_key=726f92e1f400054de4c2b4b7a406470a
+somethingSomething@3232323
