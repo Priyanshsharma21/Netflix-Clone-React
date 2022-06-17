@@ -1,0 +1,58 @@
+
+.nav{
+    position: fixed;
+    top: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    z-index: 1;
+    height: 85px;
+    transition: all 0.40s 0s ease-in;
+}
+
+
+
+.nav_black{
+    background-color: black;
+    box-shadow: 2px 2px 15px black;
+}
+
+.nav_avatar{
+    position: fixed;
+    right: 100px;
+    object-fit: contain;
+    margin-top: 22px;
+    border-radius: 5px;
+    width: 42px;
+}
+
+.nav_logo{
+    position: fixed;
+    width: 140px;
+    left: 62px;
+    object-fit:contain;
+    cursor: pointer;
+    margin-top: 1px;
+}
+
+.navigation{
+    display: flex;
+    margin-top: 28px;
+    margin-left: 203px;
+}
+
+.li_item a{
+    color: white;
+    margin-right: 28px;
+    -webkit-box-align: center;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.li_item{
+    list-style-type: none;
+}
+
+.bold_karo{
+    font-weight: bold;
+}

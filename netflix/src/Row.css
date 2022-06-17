@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@500&family=Fredoka:wght@300&family=Halant:wght@300&family=Josefin+Sans:wght@500&family=M+PLUS+1:wght@200&family=Montserrat+Alternates:wght@100&family=Montserrat:wght@100;400&family=Mukta:wght@200&family=Nanum+Gothic:wght@700&family=News+Cycle&family=Newsreader:opsz,wght@6..72,200;6..72,400&family=Open+Sans&family=PT+Sans+Narrow:wght@400;700&family=Press+Start+2P&family=Prompt&family=Quicksand:wght@300;400&family=Raleway:ital,wght@0,200;0,500;1,400&family=Sarabun:wght@200&family=Satisfy&family=Signika:wght@300&family=Source+Code+Pro:wght@300;700&family=Tajawal&family=Ubuntu:ital,wght@0,300;1,700&family=Varela+Round&display=swap');
+
+.title{
+    font-size: 1.4vw;
+    line-height: 1.25vw;
+    /* display: table-cell; */
+    vertical-align: bottom;
+    color: #e5e5e5;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 21px;
+}
+
+.row{
+    margin: 30px;
+}
+
+.row_posters{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+
+.row_posters::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+.row_poster{
+    width: 100%;
+    object-fit: contain;
+    max-height: 200px;
+    transition: transform 450ms;
+    margin-right: 10px;
+}
+
+.row_poster:hover{
+   transform: scale(1.08);
+   cursor: pointer;
+}
+
+.row_posterLarge{
+    max-height: 300px;
+}
+
+.row_posterLarge:hover{
+   transform: scale(1.08);
+   opacity: 1;
+}

@@ -1,0 +1,13 @@
+1. TMDB API for movies
+2. Create react app
+3. Firebase hosting setup 
+4. Get movie 
+5. Build react rows for movies section
+
+
+
+Api key ->
+726f92e1f400054de4c2b4b7a406470a
+
+Request endpoint
+https://api.themoviedb.org/3/movie/550?api_key=726f92e1f400054de4c2b4b7a406470a
